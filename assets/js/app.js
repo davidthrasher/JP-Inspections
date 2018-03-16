@@ -26,7 +26,7 @@
 
       Email.send(
         'contact@jphomeinspections.com',
-        'davidsthrasher@gmail.com',
+        'jphomeinspectors@gmail.com',
         subject,
         body,
         { token: '36d44dd0-9319-407d-85b0-62e5ea94cffa' }
