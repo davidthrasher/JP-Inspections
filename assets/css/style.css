@@ -1,0 +1,130 @@
+h1 {
+  color: #385174;
+  font-family: 'Italianno', cursive;
+}
+
+body {
+  background-color: lightgrey;
+}
+#header {
+  width: 100%;
+  margin: -5px;
+}
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.Site-content {
+  flex: 1;
+}
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+  color: #385174;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#bio {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#bio2 {
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#bionumber {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#times {
+  font-family: 'Times New Roman', Times, serif;
+}
+#numberpanel {
+  background-color: #314260;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: black;
+}
+.footer-copyright {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+#copyright {
+  font-size: 23px;
+  color: darkgrey;
+}
+.design {
+  color: darkgrey;
+  font-size: 15px;
+}
+/*Fade in CSS animation====================*/
+main {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*Fade in CSS animation====================*/
+@media only screen and (min-width: 750px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
